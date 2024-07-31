@@ -7,7 +7,7 @@
         flex-direction: column;
     }
     .banner-img{
-        padding-right: 0;
+        padding-right: 91px;
     }
     .menu-bar{
         display: block;
@@ -24,10 +24,24 @@
         flex-direction: column;
         gap: 50px;
     }
+    .banner-content p{
+        width: 100%;
+    }
+    .habit-text p{
+        width: 100%;
+        display: inline-block;
+    }
     .habit-poster{
         grid-template-columns: repeat(1, 1fr);
     }
     .habit-poster-img img{
         width: 100%;
+    }
+    .heading-2 {
+        font-size: 2.4rem;
+        line-height: 53px;
+    }
+    .heading-4 {
+        font-size: 1.7rem;
     }
 }

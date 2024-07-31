@@ -79,6 +79,7 @@ a{
 	font-size: 3.2rem;
 	font-weight: 900;
 	letter-spacing: 0%;
+	line-height: 60px;
 }
 
 .heading-4{
@@ -184,6 +185,11 @@ nav ul li a:hover{
 	margin: 0 auto;
 } */
 
+
+#banner-section{
+	max-width: 1170px;
+	margin: 0 auto;
+}
 .banner-container{
 	display: flex;
 	align-items: center;
@@ -192,13 +198,11 @@ nav ul li a:hover{
 	gap: 25px;
 	position: relative;
 }
-#banner-section{
-	max-width: 1170px;
-	margin: 0 auto;
+.banner-content p{
+	width: 80%;
 }
 .banner-title{
 	margin: 25px 0;
-	line-height: 60px;
 }
 .banner-title span{
 	font-weight: 300;
@@ -259,13 +263,12 @@ nav ul li a:hover{
 .banner-ribbon01{
 	/* background-color: #312e2ec4; */
 	display: block;
-	padding: 12px 20px;
+	padding: 10px 17px;
 	cursor: pointer;
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	cursor: pointer;
-
 	background: rgba( 63, 60, 60, 0.25 );
 	box-shadow: 0 8px 32px 0 rgba(27, 28, 29, 0.37);
 	backdrop-filter: blur( 13.5px );
@@ -282,7 +285,18 @@ nav ul li a:hover{
 	margin-right: 12px;
 }
 
+.banner-ribbon01 .heading-4,
+.banner-ribbon02 .heading-4{
+	font-size: 1.4rem;
+	margin: 0;
+}
 
+
+.banner-ribbon01 p,
+.banner-ribbon02 p{
+	margin: 4px 0;
+	font-size: 0.9rem;
+}
 
 /* main here */
 
@@ -306,6 +320,10 @@ nav ul li a:hover{
 .habit-text{
 	text-align: center;
 	margin: 40px 0;
+}
+.habit-text p{
+	width: 50%;
+	display: inline-block;
 }
 .habit-card{
 	text-align: center;
