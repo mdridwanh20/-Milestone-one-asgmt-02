@@ -44,4 +44,39 @@
     .heading-4 {
         font-size: 1.7rem;
     }
+    .exercise-card{
+        grid-template-areas: 
+        'a a a a c c c c'
+        'b b b b b b b b'
+        'd d d d e e e e'
+        'f f f f f f f f'
+        ;
+        gap: 10px;
+    }
+    .exercise-card .card {
+       border-radius: 3px;
+    }
+    .bmi-calc-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .bmi-container p{
+        width: 100%;
+    }
+    .team-text p{
+        width: 100%;
+    }
+    .team-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        justify-items: center;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .logo-text {
+        width: 100%;
+    }
+    
 }
