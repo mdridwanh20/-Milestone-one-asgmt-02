@@ -27,6 +27,23 @@
     .banner-content p{
         width: 100%;
     }
+    .banner-container button {
+        margin-top: 10px;
+    }
+
+
+    
+
+    .exercise-text p {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+
+
+
+
+
     .habit-text p{
         width: 100%;
         display: inline-block;
@@ -56,6 +73,8 @@
     .exercise-card .card {
        border-radius: 3px;
     }
+
+
     .bmi-calc-container{
         display: flex;
         flex-direction: column;
@@ -63,6 +82,11 @@
     .bmi-container p{
         width: 100%;
     }
+    form button{
+        width: 55%;
+    }
+
+
     .team-text p{
         width: 100%;
     }

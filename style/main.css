@@ -197,7 +197,7 @@ nav ul li a:hover{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0px 8px;
+	padding: 0px 15px;
 	gap: 25px;
 	position: relative;
 }
@@ -326,6 +326,7 @@ main{
 .habit-text{
 	text-align: center;
 	margin: 40px 0;
+	padding: 0 15px;
 }
 .habit-text p{
 	width: 50%;
@@ -533,7 +534,7 @@ select{
 	width: 100%;
 }
 form button{
-	width: 25%;
+	width: 30%;
 }
 
 
@@ -583,6 +584,7 @@ footer{
 	gap: 50px;
 	display: flex;
 	justify-content: space-between;
+	padding: 0 15px;
 }
 .logo-text .brand-logo {
 	color: #E6533C;
