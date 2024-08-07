@@ -49,9 +49,10 @@
 
 
 
+
     .habit-text p{
         width: 100%;
-        display: inline-block;
+        margin: 3px 0;
     }
     .habit-poster{
         grid-template-columns: repeat(1, 1fr);
@@ -66,6 +67,10 @@
     .heading-4 {
         font-size: 1.7rem;
     }
+
+
+
+
     .exercise-card{
         grid-template-areas: 
         'a a a a c c c c'
@@ -96,8 +101,10 @@
 
 
 
+
+
     form {
-        margin-top: 41px;
+        margin-top: 10px;
     }
 
 
@@ -127,6 +134,10 @@
     }
 
 
+
+
+
+    
     .footer-container{
         flex-direction: column;
     }

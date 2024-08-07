@@ -372,6 +372,8 @@ main{
 
 
 
+
+
 /* exercises section */
 #exercises-section{
 	max-width: 1170px;
@@ -387,7 +389,7 @@ main{
 .exercise-card-cnt1{
 	grid-area: a;
 	background-image: url(../images/exercise1.jpg);
-	background-color: #06FFD280;
+	background-color: #106656be;
 	background-blend-mode: overlay;
 }
 .exercise-card-cnt2{
@@ -412,13 +414,13 @@ main{
 .exercise-card-cnt5{
 	grid-area: e;
 	background-image: url(../images/exercise5.jpg);
-	background-color: #42FF004D;
+	background-color: #164704c0;
 	background-blend-mode: overlay;
 }
 .exercise-card-cnt6{
 	grid-area: f;
 	background-image: url(../images/exercise6.jpg);
-	background-color: #0047FF4D;
+	background-color: #02184ed2;
 	background-blend-mode: overlay;
 }
 .exercise-card{
@@ -428,6 +430,7 @@ main{
 	'd d e f f'
 	;
 }
+
 .exercise-card-cnt{
 	border: 1px solid #fff;
 }
@@ -438,17 +441,25 @@ main{
 	background-size: cover;
 	cursor: pointer;
 	position: relative;
+}
+.exercise-card .card > div{
+	/* background-color: red; */
+	position: absolute;
 	
 }
+
+/* problem (text alignmetn)-------------------------------------------------------------------------------------------> */
+.exercise-card-cnt1{
+	bottom: 0;
+}
+
+
 .exercise-card .card h5{
-	/* background-color: rgba(187, 175, 175, 0.527); */
 	font-size: 0.9rem;
 	font-weight: 400;
 	padding: 20px;
 	color: #fdfdfd;
-	position: absolute;
-	margin: 0;
-	bottom: 0;
+	line-height: 20px;
 }
 
 
@@ -505,6 +516,7 @@ main{
 .bmi-calc-container{
 	display: flex;
 	justify-content: space-between;
+	gap: 30px;
 }
 form{
 	display: flex;
@@ -570,10 +582,13 @@ form .your-bmi-btn .btn{
 .team-img{
 	position: relative;
 }
+/* problem here (image overly) ---------------------------------------------------------------------------> */
 .team-img img{
 	background-color: #00000086;
-	background-blend-mode: normal;
+	background-blend-mode: overlay;
 }
+
+
 
 .team-img h5{
 	color: #fff;
