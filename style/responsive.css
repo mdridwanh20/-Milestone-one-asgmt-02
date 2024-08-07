@@ -39,6 +39,11 @@
         margin: 15px 0;
     }
 
+    .exercise-card .card h5 {
+        font-size: 0.7rem;
+        font-weight: 300;
+        padding: 9px;
+    }
 
 
 
@@ -75,6 +80,8 @@
     }
 
 
+    
+
     .bmi-calc-container{
         display: flex;
         flex-direction: column;
@@ -82,9 +89,20 @@
     .bmi-container p{
         width: 100%;
     }
-    form button{
-        width: 55%;
+    
+    .bmi-calc-chart h4 {
+        margin-bottom: 25px;
     }
+
+
+
+    form {
+        margin-top: 41px;
+    }
+
+
+
+
 
 
     .team-text p{
@@ -96,6 +114,19 @@
         gap: 15px;
         justify-items: center;
     }
+
+    .team-container {
+        padding: 60px 15px;
+    }
+
+    .team-text .heading-4 {
+        font-weight: 800;
+        font-size: 2rem;
+        color: var(--white-color);
+        margin: 3px 0;
+    }
+
+
     .footer-container{
         flex-direction: column;
     }

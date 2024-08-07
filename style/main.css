@@ -533,8 +533,8 @@ select{
 .activity-text{
 	width: 100%;
 }
-form button{
-	width: 30%;
+form .your-bmi-btn .btn{
+	padding: 10px 70px;
 }
 
 
@@ -560,7 +560,6 @@ form button{
 	grid-template-columns: repeat(3, 1fr);
 	gap: 15px;
 	padding: 30px 0;
-	
 }
 .team-card-container img{
 	width: 100%;
@@ -568,6 +567,31 @@ form button{
 	object-fit: cover;
 	border-radius: 10px;
 }
+.team-img{
+	position: relative;
+}
+.team-img img{
+	background-color: #00000086;
+	background-blend-mode: normal;
+}
+
+.team-img h5{
+	color: #fff;
+}
+.team-img p{
+	color: #fff;
+	margin: 5px 0;
+}
+
+
+.team-card-text{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+
+
 
 
 
