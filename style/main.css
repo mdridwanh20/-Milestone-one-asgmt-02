@@ -90,7 +90,7 @@ a{
 }
 
 .heading-5{
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: 500;
 	color: var(--white-color);
 	margin: 8px 0;
@@ -113,7 +113,7 @@ img{
 }
 
 .bmi{
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 
@@ -385,7 +385,6 @@ main{
 	width: 40%;
 }
 
-
 .exercise-card-cnt1{
 	grid-area: a;
 	background-image: url(../images/exercise1.jpg);
@@ -443,16 +442,28 @@ main{
 	position: relative;
 }
 .exercise-card .card > div{
-	/* background-color: red; */
 	position: absolute;
+	/* width: 100%;
+	height: 100%; */
 	
 }
 
 /* problem (text alignmetn)-------------------------------------------------------------------------------------------> */
-.exercise-card-cnt1{
+.exercise-card-cnt1 > div {
 	bottom: 0;
 }
-
+.exercise-card-cnt3 > div{
+	bottom: 0;
+}
+.exercise-card-cnt4 > div{
+	right: 0;
+}
+.exercise-card-cnt5 > div{
+	bottom: 0;
+}
+.exercise-card-cnt > div{
+	bottom: 0;
+}
 
 .exercise-card .card h5{
 	font-size: 0.9rem;
@@ -514,25 +525,47 @@ main{
 
 /* calculate BMI css here */
 .bmi-calc-container{
-	display: flex;
-	justify-content: space-between;
-	gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
+
+.height{
+	grid-area: a;
+}
+.weight{
+	grid-area: b;
+}
+.age{
+	grid-area: c;
+}
+.sex{
+	grid-area: d;
+}
+.activity-text{
+	grid-area: e;
+}
+.your-bmi-btn{
+	grid-area: f;
+} 
 form{
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	gap: 15px;
+	grid-template-areas:
+	'a b'
+	'c d'
+	'e e'
+	'f .'
+	;
 }
+
 input, select{
 	padding: 15px;
-	background-color: #FFFFFF1A;
+	background-color: #ffffff0a;
 	border: none;
 	border-radius: 5px;
-	margin: 8px 0;
 	color: #d6d3d3;
 }
-input, option{
-	
-}
+
 ::placeholder{
 	color: #fff;
 }
@@ -542,12 +575,15 @@ select{
 :focus-visible{
 	outline: none;
 }
-.activity-text{
-	width: 100%;
-}
+
 form .your-bmi-btn .btn{
-	padding: 10px 70px;
+	/* padding: 10px 70px; */
+	margin-top: 8px;
 }
+
+
+
+
 
 
 
@@ -573,22 +609,18 @@ form .your-bmi-btn .btn{
 	gap: 15px;
 	padding: 30px 0;
 }
-.team-card-container img{
+
+.team-img{
+	position: relative;
+}
+.team-card-container .team-img img{
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
 	border-radius: 10px;
 }
-.team-img{
-	position: relative;
-}
+
 /* problem here (image overly) ---------------------------------------------------------------------------> */
-.team-img img{
-	background-color: #00000086;
-	background-blend-mode: overlay;
-}
-
-
 
 .team-img h5{
 	color: #fff;

@@ -68,6 +68,10 @@
         font-size: 1.7rem;
     }
 
+    .heading-5{
+        font-size: 0.8rem;
+    }
+
 
 
 
@@ -98,14 +102,32 @@
     .bmi-calc-chart h4 {
         margin-bottom: 25px;
     }
+    .bmi-calc-chart{
+        margin-bottom: 40px;
+    }
 
 
 
 
+    
 
     form {
         margin-top: 10px;
     }
+    form{
+        display: grid;
+        gap: 15px;
+        grid-template-areas:
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f'
+        ;
+    }
+   
+
 
 
 
