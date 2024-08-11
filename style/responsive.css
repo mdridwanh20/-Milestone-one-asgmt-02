@@ -1,8 +1,23 @@
 @media screen and (max-width: 576px) {
+    /* help css --------------------------------------- */
+    .heading-2 {
+        font-size: 2.4rem;
+        line-height: 53px;
+    }
+    .heading-4 {
+        font-size: 1.7rem;
+    }
+
+    .heading-5{
+        font-size: 0.8rem;
+    }
+
+    /* nav link --------------------------------------- */
     .nav-links{
         display: none;
         transition: all 0.5s ease-in-out;
     }
+    /* banner --------------------------------------- */
     .banner-container{
         flex-direction: column;
     }
@@ -20,10 +35,6 @@
     .banner-play{
         display: none;
     }
-    .habit-card-container{
-        flex-direction: column;
-        gap: 50px;
-    }
     .banner-content p{
         width: 100%;
     }
@@ -31,25 +42,11 @@
         margin-top: 10px;
     }
 
-
-    
-
-    .exercise-text p {
-        width: 100%;
-        margin: 15px 0;
+     /* habit --------------------------------------- */
+     .habit-card-container{
+        flex-direction: column;
+        gap: 50px;
     }
-
-    .exercise-card .card h5 {
-        font-size: 0.7rem;
-        font-weight: 300;
-        padding: 9px;
-    }
-
-
-
-
-
-
     .habit-text p{
         width: 100%;
         margin: 3px 0;
@@ -60,21 +57,19 @@
     .habit-poster-img img{
         width: 100%;
     }
-    .heading-2 {
-        font-size: 2.4rem;
-        line-height: 53px;
+
+
+
+    /* exercise --------------------------------------- */
+    .exercise-text p {
+        width: 100%;
+        margin: 15px 0;
     }
-    .heading-4 {
-        font-size: 1.7rem;
+    .exercise-card .card h5 {
+        font-size: 0.7rem;
+        font-weight: 300;
+        padding: 9px;
     }
-
-    .heading-5{
-        font-size: 0.8rem;
-    }
-
-
-
-
     .exercise-card{
         grid-template-areas: 
         'a a a a c c c c'
@@ -89,8 +84,7 @@
     }
 
 
-    
-
+     /* bmi-calc-container --------------------------------------- */
     .bmi-calc-container{
         display: flex;
         flex-direction: column;
@@ -98,19 +92,12 @@
     .bmi-container p{
         width: 100%;
     }
-    
     .bmi-calc-chart h4 {
         margin-bottom: 25px;
     }
     .bmi-calc-chart{
         margin-bottom: 40px;
     }
-
-
-
-
-    
-
     form {
         margin-top: 10px;
     }
@@ -127,13 +114,7 @@
         ;
     }
    
-
-
-
-
-
-
-
+     /* team --------------------------------------- */
     .team-text p{
         width: 100%;
     }
@@ -155,16 +136,11 @@
         margin: 3px 0;
     }
 
-
-
-
-
-    
+     /* footer section--------------------------------------- */
     .footer-container{
         flex-direction: column;
     }
     .logo-text {
         width: 100%;
     }
-    
 }

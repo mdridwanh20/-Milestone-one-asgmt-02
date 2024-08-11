@@ -32,8 +32,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-
-
 blockquote, q {
 	quotes: none;
 }
@@ -49,7 +47,7 @@ table {
 
 
 
-/* help css here*/
+/* ---------------------------------------------------------------------------------help css here*/
 p{
 	font-size: 1rem;
 	color: rgba(255, 255, 255, 0.5);
@@ -88,7 +86,6 @@ a{
 	color: var(--white-color);
 	margin: 10px 0;
 }
-
 .heading-5{
 	font-size: 1rem;
 	font-weight: 500;
@@ -111,15 +108,13 @@ a{
 img{
 	max-width: 100%;
 }
-
 .bmi{
 	text-transform: uppercase;
 }
 
 
-/* header section here  */
-
-/* navbar section  */
+/* ---------------------------------------------------------------------------------header section here  */
+/* ---------------------navbar section  */
 header{
 	background-color: #000 ;
 	/* padding: 30px 0; */
@@ -142,16 +137,12 @@ header{
 	color: var(--brand-color);
 }
 
-
-
 nav > ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-nav ul li:not(:last-child){
-	/* padding-right: 25px; */
-}
+
 nav ul li a{
 	text-transform: capitalize;
 	color: var(--white-color);
@@ -182,13 +173,7 @@ nav ul li a:hover{
 
 
 
-/* banner section */
-/* main{
-	max-width: 1170px;
-	margin: 0 auto;
-} */
-
-
+/* ---------------------------------------------------------------------------------banner section */
 #banner-section{
 	max-width: 1170px;
 	margin: 0 auto;
@@ -211,7 +196,6 @@ nav ul li a:hover{
 	font-weight: 300;
 	font-style: italic;
 }
-
 .banner-btn01{
 	margin-right: 12px;
 }
@@ -230,14 +214,8 @@ nav ul li a:hover{
 .banner-img{
 	padding-right: 40px;
 	position: relative;
-	/* background-color: red; */
 }
-
-
-
-
-
-/* banner slide play */
+/* ---------------------banner slide play */
 .banner-play{
 	position: absolute;
 	top: 35%;
@@ -249,22 +227,18 @@ nav ul li a:hover{
 	cursor: pointer;
 }
 
-/* banner image -------------- */
 .banner-ribbon01{
 	position: absolute;
 	bottom: 17%;
 	left: -20%;
 }
-
 .banner-ribbon02{
 	position: absolute;
 	bottom: 75%;
 	right: 0%;
 }
-
 .banner-ribbon02,
 .banner-ribbon01{
-	/* background-color: #312e2ec4; */
 	display: block;
 	padding: 10px 17px;
 	cursor: pointer;
@@ -287,26 +261,25 @@ nav ul li a:hover{
 	border-radius: 50px;
 	margin-right: 12px;
 }
-
 .banner-ribbon01 .heading-4,
 .banner-ribbon02 .heading-4{
 	font-size: 1.4rem;
 	margin: 0;
 }
-
-
 .banner-ribbon01 p,
 .banner-ribbon02 p{
 	margin: 4px 0;
 	font-size: 0.9rem;
 }
 
-/* main here */
+
+
+/* ---------------------------------------------------------------------------------main here */
 main{
 	background-color: #000;
 }
 
-/* habit section here */
+/* ---------------------habit section here */
 #habit-section{
 	padding: 50px 0;
 	background-color: #000;
@@ -315,13 +288,10 @@ main{
 	margin: 0 auto;
 	max-width: 1170px;
 }
-
 .habit-card-container{
 	display: flex;
 	align-items: center;
-	/* justify-content: space-evenly; */
 	justify-content: space-evenly;
-	/* gap: 80px; */
 }
 .habit-text{
 	text-align: center;
@@ -336,14 +306,9 @@ main{
 	text-align: center;
 	cursor: pointer;
 }
-
-
 .habit-card img{
 	border-radius: 50%;
 }
-
-
-/* habit poster here */
 .habit-poster{
 	background-color:#222222;
 	margin: 50px 0;
@@ -372,19 +337,15 @@ main{
 
 
 
-
-
-/* exercises section */
+/* ---------------------------------------------------------------------------------exercises section */
 #exercises-section{
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0px 15px 50px 15px;
-	
 }
 .exercise-text p{
 	width: 40%;
 }
-
 .exercise-card-cnt1{
 	grid-area: a;
 	background-image: url(../images/exercise1.jpg);
@@ -396,7 +357,6 @@ main{
 	background-image: url(../images/exercise2.png);
 	background-color: #FF00004D;
 	background-blend-mode: overlay;
-
 }
 .exercise-card-cnt3{
 	grid-area: c;
@@ -429,7 +389,6 @@ main{
 	'd d e f f'
 	;
 }
-
 .exercise-card-cnt{
 	border: 1px solid #fff;
 }
@@ -443,12 +402,7 @@ main{
 }
 .exercise-card .card > div{
 	position: absolute;
-	/* width: 100%;
-	height: 100%; */
-	
 }
-
-/* problem (text alignmetn)-------------------------------------------------------------------------------------------> */
 .exercise-card-cnt1 > div {
 	bottom: 0;
 }
@@ -476,7 +430,7 @@ main{
 
 
 
-/* BMI SECTION HERE */
+/* ---------------------------------------------------------------------------------BMI SECTION HERE */
 .bmi-section{
 	max-width: 1170px;
 	margin: 0px auto;
@@ -484,7 +438,6 @@ main{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
 .bmi-container p{
 	width: 60%;
@@ -520,15 +473,11 @@ main{
 }
 
 
-
-
-
-/* calculate BMI css here */
+/* ---------------------calculate BMI css here */
 .bmi-calc-container{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
-
 .height{
 	grid-area: a;
 }
@@ -555,9 +504,8 @@ form{
 	'c d'
 	'e e'
 	'f .'
-	;
+	; 
 }
-
 input, select{
 	padding: 15px;
 	background-color: #ffffff0a;
@@ -565,7 +513,6 @@ input, select{
 	border-radius: 5px;
 	color: #d6d3d3;
 }
-
 ::placeholder{
 	color: #fff;
 }
@@ -575,19 +522,12 @@ select{
 :focus-visible{
 	outline: none;
 }
-
 form .your-bmi-btn .btn{
-	/* padding: 10px 70px; */
 	margin-top: 8px;
 }
 
 
-
-
-
-
-
-/* TEAM STYLE HERE */
+/* ---------------------------------------------------------------------------------TEAM STYLE HERE */
 .team-container{
 	max-width: 1170px;
 	margin: 0 auto;
@@ -609,7 +549,6 @@ form .your-bmi-btn .btn{
 	gap: 15px;
 	padding: 30px 0;
 }
-
 .team-img{
 	position: relative;
 }
@@ -620,8 +559,6 @@ form .your-bmi-btn .btn{
 	border-radius: 10px;
 }
 
-/* problem here (image overly) ---------------------------------------------------------------------------> */
-
 .team-img h5{
 	color: #fff;
 }
@@ -629,8 +566,6 @@ form .your-bmi-btn .btn{
 	color: #fff;
 	margin: 5px 0;
 }
-
-
 .team-card-text{
 	position: absolute;
 	left: 20px;
@@ -639,10 +574,7 @@ form .your-bmi-btn .btn{
 
 
 
-
-
-
-/* footer style here */
+/* ---------------------------------------------------------------------------------footer style here */
 footer{
 	background-color: #222222;
 	padding-top: 100px ;
@@ -650,8 +582,6 @@ footer{
 .footer-container{
 	max-width: 1170px;
 	margin: 15px auto;
-	/* display: grid;
-	grid-template-columns: repeat(3, 1fr); */
 	gap: 50px;
 	display: flex;
 	justify-content: space-between;
@@ -664,12 +594,10 @@ footer{
 .logo-text {
 	width: 50%;
 }
-
 .get-started h5{
 	color: #fff;
 	margin-bottom: 20px;
 }
-
 .get-started ul li{
 	color: #b6b2b2;
 	text-transform: capitalize;
@@ -680,7 +608,6 @@ footer{
 	color: #E6533C;
 	transition: 0.3s ease;
 }
-
 .footer-bottom-text{
 	max-width: 1170px;
 	margin: 0 auto;
