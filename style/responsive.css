@@ -86,6 +86,14 @@
     }
 
 
+     /* pricing table plan --------------------------------------- */
+     .pricing-container{
+        grid-template-columns: repeat(1, 1fr);
+     }
+
+
+
+
      /* bmi-calc-container --------------------------------------- */
     .bmi-calc-container{
         display: flex;
